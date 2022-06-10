@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+.w {
+	margin: 0 auto;
+}
+.lodo {
+	width: 50%;
+	height: 30px;
+}
+.lodo img {
+	width: 150px;
+}
+.a1 {
+	width: 50%;
+	font-size: 12px;
+	font-weight: 600;
+}
+.a1 ul {
+	display: flex;
+}
+.a1 ul li {
+	flex: 1;
+	position: relative;
+	text-align: center;
+	padding: 10px 0;
+}
+.a1 ul li img {
+	position: absolute;
+	width: 100%;
+	display: none;
+	bottom: 0;
+	left: 0;
+}
+.a1 ul li:hover img {
+	display: block;
+}
+.a2 {
+	background-color: #000066;
+}
+.a3 {
+	position: relative;
+	width: 80%;
+	height: 250px;
+}
+.a3 img {
+	width: 100%;
+	height: 100%;
+}
+.a3 ul {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.a3 ul li {
+	float: left;
+	margin: 0 3px;
+	width: 9px;
+	height: 9px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.a3 ul li:hover {
+	background-color: rgba(0,0,0,.1);
+}
+.a4 {
+	margin-top: 25px;
+	width: 50%;
+	height: 200px;
+}
+.a5 {
+	float: left;
+	width: 30%;
+	text-align: center;
+	color: #f9ddda;
+	font-size: 16px;
+	font-weight: 500;
+	background-color: pink;
+}
+.a5 ul li {
+	line-height: 30px;
+	height: 30px;
+	border-bottom: 1px solid  #3c3c3c;
+	background-color: #353535;
+}
+.a5 ul li:nth-child(1) {
+	font-size: 18px;
+	background-color: #df0000;
+}
+.a5 ul li:nth-child(1) span {
+	font-size: 12px;
+	vertical-align: middle;
+}
+.a5 ul li:nth-child(1):hover {
+	color: #fff;
+}
+.a5 ul li:hover {
+	color: #7f2728;
+}
+.a6 {
+	float: right;
+	width: 68%;
+	/* height: 100%; */
+	margin-left: 2%;
+}
+.a6 h4 {
+	position: relative;
+}
+.a6 h4 span {
+	font-size: 16px;
+	color: #868482;
+}
+.a6 h4 li {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 241px;
+	height: 100%;
+	background-color: #dedfe2;
+}
+.a6 h3 {
+	font-size: 15px;
+	width: 100%;
+	text-align: center;
+}
+.a6 h5 {
+	font-size: 13px;
+	width: 100%;
+	text-align: center;
+}
+.a6 p {
+	text-indent: 2em;
+	font-size: 10px;
+}
+.a6 p span {
+	color: red;
+}
+.a7 {
+	width: 300px;
+	height: 200px;
+}
+.a7 img {
+	width: 100%;
+	height: 100%;
+}
+.a8 {
+	position: relative;
+	margin-top: 160px;
+	height: 100px;
+}
+.a8 img {
+	width: 100%;
+	height: 100%;
+}
+.a9 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	height: 20px;
+}
+.a9 img {
+	width: 100%;
+	height: 100%;
+}
+.a9 p {
+	position: absolute;
+	top: 2px;
+	left: 190px;
+	font-size: 10px;
+	color: #fff;
+}

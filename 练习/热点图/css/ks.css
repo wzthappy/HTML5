@@ -1,0 +1,60 @@
+body {
+	background-color: #000000;
+}
+.map {
+	position: relative;
+	width: 747px;
+	height: 616px;
+	background: url(../img/ditu.png) no-repeat;
+	background-size: 747px 616px;
+	margin: 0 auto;
+}
+.city {
+	position: absolute;
+    top: 180px;
+    right: 190px;
+	color: #fff;
+}
+.tb {
+	top: 393px;
+	right: 103px;
+}
+.dotted {
+	width: 8px;
+	height: 8px;
+	background-color: #09f;
+	border-radius: 50%;
+}
+.city div[class^="pulse"] {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 8px;
+	height: 8px;
+	box-shadow: 0 0 12px red;
+	border-radius: 50%;
+	animation: pulse 1.2s linear infinite;
+}
+
+.city div.pulse2 {
+	animation-delay: .4s;
+}
+.city div.pulse3 {
+	animation-delay: .8s;
+}
+@keyframes pulse {
+	0% {
+		
+	}
+	70% {
+		width: 40px;
+		height: 40px;
+		opacity: 1;
+	}
+	100% {
+		width: 70px;
+		height: 70px;
+		opacity: 0;
+	}
+}

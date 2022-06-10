@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	cursor: default;
+}
+.w {
+	margin: 0 auto;
+	width: 8.3rem;
+}
+li {
+	list-style: none;
+}
+div {
+	box-sizing: border-box;
+}
+em {
+	font-style: normal;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+button {
+	border: 0;
+}

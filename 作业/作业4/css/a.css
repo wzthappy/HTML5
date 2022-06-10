@@ -1,0 +1,125 @@
+@font-face {
+		font-family: a1;
+		src: url(../img/aNO.TTF);
+	}
+@font-face {
+		font-family: a2;
+		src: url(../img/aBUTT.TTF);
+	}
+@font-face {
+	font-family: a3;
+	src: url(../img/ain28th2015.TTF);
+	}
+@font-face {
+	font-family: a5;
+	src: url(../img/a2015.TTF);
+	}
+@font-face {
+	font-family:a6;
+	src: url(../img/a秋装全场.TTF);
+	}
+body {
+	background-color: #f0f0f0;
+	}
+#a {
+	width: 760px;
+	height: 320px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin: auto ;
+	}
+h3 {
+	display: inline;
+	}
+#a1 {
+	font-family: a1;
+	font-size: 60px;
+	color: #333333;
+	}
+
+#a2 {
+	font-family: a2;
+	font-size: 70px;
+	color: #4c9372;
+}
+.a3 {
+	font-family: a3;
+	font-size: 30px;
+	color: #333333;
+}
+.a4 {
+	font-size: 40px;
+}
+#a5 {
+	font-family: a5;
+	font-size: 80px;
+}
+#a6,#a8 {
+	font-family: a6;
+	font-size: 70px;
+	color: #e1005a;
+}
+#a7 {
+	font-size: 50px;
+}
+#a8 {
+	font-size: 50px;
+}
+#a9 {
+	font-size: 18px;
+	color: #808080;
+}
+#c {
+	margin: 0px 400px;	
+}
+#a10,#a11 {
+	width: 175px;
+	height: 150px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+#a10 {
+	background-image: url(../img/a.jpg);
+}
+#a11 {
+	background-image: url(../img/b.jpg);
+}
+#c2 {
+	width: 360px;
+	height: 100px;
+	margin: 0px 400px;
+	background-color: #f8f8f6;
+}
+.c1 {
+	color: #f6e1e7;
+	background-color: #f60532;
+}
+#c3,.c5,.c7 {
+	font-size: 5px;
+}
+#c3 {
+	color: #f3f934;
+}
+.c4 {
+	width: 175px;
+	height: 150px;
+	display: inline-block;
+}
+.c6 {
+	font-size: 20px;
+}
+.c8 {
+	font-size: 5px;
+	text-align: right;
+}
+.c9 {
+	color: #b9b9b9;
+}
+.c5,.c6 {
+	color: #f85c13;
+}
+.c6 {
+	font-weight: 600;
+	}

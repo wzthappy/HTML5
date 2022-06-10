@@ -1,0 +1,16 @@
+div {
+  width: 10px;
+  height: 100px;
+  background-color: pink;
+}
+div P {
+  color: pink;
+}
+div::after {
+  content: "22";
+}
+div {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+}

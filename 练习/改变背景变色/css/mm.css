@@ -1,0 +1,23 @@
+/* 小于540px 页面的背景颜色变为蓝色 */
+@media screen and (max-width: 539px) {
+	body {
+		background-color: blue;
+	}
+}
+/* 540px~970px 页面的背景颜色变为绿色 */
+/* @media screen and (min-width: 540px) and (max-width: 969px) {
+	body {
+		background-color: green;
+	}
+} */
+@media screen and (min-width: 540px) {
+	body {
+		background-color: green;
+	}
+}
+/* 大于等于970px 页面的背景颜色变为红色 */
+@media screen and (min-width: 970px) {
+	body {
+		background-color: red;
+	}
+}

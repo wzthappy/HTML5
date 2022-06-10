@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #DACFAD;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.w {
+	margin: 0 auto;
+}
+
+.a1 {
+	width: 100%;
+	height: 340px;
+}
+
+.a1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.a2 {
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+
+.a2 .a3 {
+	width: 50%;
+	height: 100%;
+}
+
+.a2 .a3 ul {
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	display: flex;
+	text-align: center;
+}
+
+.a2 .a3 ul li {
+	flex: 1;
+	font-size: 20px;
+}
+
+.a2 .a3 ul li:hover a {
+	font-weight: 500;
+}
+
+.a2 .a3 ul li:hover {
+	transform: translateY(-3px);
+	background-color: #696969;
+}
+
+.a4 {
+	width: 100%;
+	height: 545px;
+	background-color: #963C24;
+}
+
+.a5 {
+	overflow: hidden;
+	width: 60%;
+	height: 100%;
+}
+
+.a5 .logo {
+	margin-top: 30px;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+.a6 ul {
+	white-space: 80%;
+	display: flex;
+}
+
+.a6 ul li {
+	flex: 1;
+	border: 3px solid #963C24;
+	overflow: hidden;
+}
+
+.a6 ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+.a6 ul li:hover img {
+	transform: scale(1.2);
+	transition: all 1s;
+}
+
+.a6 ul li:nth-child(1) {
+	background: url(../img/left.png) no-repeat 143px 56px;
+}
+
+.a6 ul li:nth-child(1):hover {
+	background: url(../img/left2.png) no-repeat 143px 56px;
+}
+
+.a6 ul li:nth-child(7) {
+	background: url(../img/right.png) no-repeat 3px 56px;
+}
+
+.a6 ul li:nth-child(7):hover {
+	background: url(../img/right2.png) no-repeat 3px 56px;
+}
+
+.a7 {
+	display: flex;
+	margin-top: 30px;
+}
+
+.a7 ul {
+	flex: 1;
+	color: #D6B98C;
+	font-size: 14px;
+}
+
+.a7 ul:nth-child(1) {
+	border-right: 1px solid #fff;
+}
+
+.a7 ul:nth-child(2) {
+	margin-left: 40px;
+}
+
+.a7 ul li {
+	letter-spacing: 2px;
+	margin-top: 7px;
+}
+
+.a7 ul li span {
+	letter-spacing: 0px;
+	margin-left: 136px;
+	color: #642619;
+}
+
+.a7 ul li:hover {
+	color: #EF100A;
+	transform: translateY(2px);
+}
+
+.a7 ul li:hover span {
+	color: #642619;
+	transform: translateY(0px);
+}
+
+.a8 {
+	height: 100px;
+}
+
+.a9 {
+	margin-top: 20px;
+	width: 50%;
+	height: 100%;
+}
+
+.a9 p {
+	margin-top: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.a9 p:nth-child(3) {
+	color: #8B8181;
+}

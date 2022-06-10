@@ -1,0 +1,248 @@
+/* 把我们所有标签的内外边距清零 */
+* {
+    margin: 0;
+    padding: 0
+}
+/* em 和 i 斜体的文字不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+/* 去掉li 的小圆点 */
+li {
+    list-style: none;
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle;
+}
+
+button {
+    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+    cursor: pointer;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c81623;
+}
+
+button,
+input {
+    /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif
+}
+
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+}
+
+.hide,
+.none {
+    display: none;
+}
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+body {
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: -apple-system,Helvetica,sans-serif;
+	color: #666;
+	line-height: 1.5;
+	background-color: #ccc;
+	height: 2000px;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img {
+	vertical-align: middle;
+}
+.app {
+	height: 45px;
+}
+.app ul li {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background-color: #333;
+}
+.app ul li:nth-child(1) {
+	width: 8%;
+}
+.app ul li:nth-child(2) {
+	width: 10%;
+}
+.app ul li:nth-child(2) img {
+	width: 30px;
+	vertical-align: middle;
+}
+.app ul li:nth-child(3) {
+	width: 57%;
+}
+.app ul li:nth-child(4) {
+	width: 25%;
+	background-color: #F63515;
+}
+.search-wrap {
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	height: 44px;
+	min-width: 320px;
+	max-width: 640px;
+}
+.search-btn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: pink;
+	width: 40px;
+	height: 44px;
+}
+.search-btn::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 18px;
+	background: url() no-repeat;
+	background-size: 20px 18px;
+	margin: 14px 0 0 15px;
+}
+.search-login {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 44px;
+	color: #fff;
+	line-height: 44px;
+}
+.search {
+	position: relative;
+	height: 30px;
+	background-color: #fff;
+	margin: 0 50px ;
+	border-radius: 15px;
+	margin-top: 7px;
+}
+.jd-icon {
+	width: 20px;
+	height: 15px;
+	position: absolute;
+	top: 8px;
+	left: 13px;
+	background-color: pink;
+	background: url() no-repeat;
+	background-size: 20px 15px;
+}
+.jd-icon::after {
+	position: absolute;
+	right: -8px;
+	top: 0;
+	content: "";
+	display: block;
+	width: 1px;
+	height: 15px;
+	background-color: #ccc;
+}
+.sou {
+	position: absolute;
+	top: 8px;
+	left: 50px;
+	width: 18px;
+	height: 15px;
+	background-color: pink;
+	background: url() no-repeat -81px 0;
+	background-size: 200px auto;
+}
+.slider img {
+	width: 100%;
+	height: 200px;  //x
+	background-color: #0000FF;
+}
+.brand {
+	overflow: hidden;
+	height: 200px;
+	background-color: #000000;
+	border-radius: 10px 10px 0 0;
+}
+.brand div {
+	float: left;
+	width: 33.33333%;
+}
+.brand div img {
+	width: 100%;
+}
+nav {
+	padding-top: 5px;
+}
+nav a {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+nav a img {
+	width: 40px;
+	margin: 10px 0;
+}
+nav a span {
+	display: block;
+}
+.newe {
+	margin-top: 20px;
+}
+.newe img {
+	width: 100%;
+}
+.newe a {
+	float: left;
+	box-sizing: border-box;
+}
+.newe a:nth-child(1) {
+	width: 50%;
+}
+/* .newe a:nth-child(2),
+.newe a:nth-child(3) {
+	width: 25%;
+}
+.newe a:nth-child(3) {
+	width: 25%;
+} */
+.newe a:nth-child(n+2) {    /* 2,3,4..... */
+	width: 25%;
+	border-left: 1px solid #ccc;
+}

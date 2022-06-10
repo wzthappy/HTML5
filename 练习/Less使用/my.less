@@ -1,0 +1,18 @@
+@p:pink;
+div {
+	width: 10px;
+	height: 100px;
+	background-color: @p;
+	P{
+		color: @p;
+	}
+	&::after {
+		content: "22";
+	}
+}
+@border:5px + 5;
+div {
+	width: 200px;
+	height: 200px;
+	border: @border solid red;
+}

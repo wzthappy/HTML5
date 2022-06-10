@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.w {
+	margin: 0 auto;
+}
+li {
+	list-style: none;
+}
+.a1 {
+	width: 70%;
+	height: 37px;
+}
+.logo {
+	float: left;
+}
+.a1 img {
+	height: 40px;
+}
+.a1 ul {
+	display: flex;
+	float: right;
+	line-height: 40px;
+}
+.a1 ul li {
+	padding: 0 8px;
+	font-size: 12px;
+	color: #626869;
+}
+.a1 ul li:hover {
+	color: #92c2fa;
+}
+.a2 {
+	position: relative;
+	width: 85%;
+	height: 400px;
+}
+.a2 img {
+	width: 100%;
+	height: 400px;
+}
+.a2 ul {
+	display: flex;
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.a2 ul li {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	margin: 0 3px;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+.a2 ul li:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+.a3 {
+	position: relative;
+	width: 50%;
+	height: 100px;
+	line-height: 120px;
+	text-align: center;
+}
+.a3 span {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	width: 40%;
+	height: 1px;
+	background-color: #ccc;
+}
+.a3 .s1 {
+	position: absolute;
+	top: 50%;
+	left: 58%;
+	transform: translateY(-50%);
+}
+.a3 img {
+	width: 100px;
+	height: 30px;
+}
+.c1 {
+	overflow: hidden;
+}
+.a4 {
+	display: flex;
+	width: 50%;
+	height: 150px;
+	transform: translateX(20px);
+}
+.a4 img {
+	flex: 1;
+	width: 100%;
+	height: 100%;
+	border: 10px solid #fff;
+}
+.a4 .d1 {
+	position: relative;
+	width: 100%;
+	height: 93%;
+	background-color: rgba(0,0,0,.4);
+	text-align: center;
+	line-height: 70px;
+	border-left: 10px solid #fff;
+}
+.a4 .d1 img {
+	opacity: 0.8;
+	position: relative;
+	top: 50%;
+	transform: translateY(-70%);
+	border: 0;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.a4 .d1 div {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	background-color: rgba(0,0,0,.3);
+	line-height: 30px;
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+}
+.c1:hover .d1 {
+	transform: translateY(-165px);
+}
+.a4 .c2 {
+	border-right: 0;
+}
+.v1 {
+	position: absolute;
+	top: 50%;
+	left: -35px;
+	transform: translateY(-20%);
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	font-size: 15px;
+	background-color: #c8c8c8;
+	border-radius: 50%;
+}
+.v2 {
+	position: absolute;
+	top: 50%;
+	left: 96%;
+	transform: translateY(-20%);
+}
+.v1:hover {
+	background-color: #2188f6;
+}
+.a5 {
+	margin-top: 40px;
+	height: 60px;
+	background-color: #202424;
+}
+.a6 {
+	width: 32%;
+	overflow: hidden;
+}
+.a6 ul {
+	margin-top: 20px;
+	display: flex;
+}
+.a6 ul li {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 2px solid #fff;
+}
+.a6 ul li:nth-child(6) {
+	border-right: 0;
+}
+.a6 ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.a6 ul li a:hover {
+	color: #20478d;
+	text-decoration: underline;
+}

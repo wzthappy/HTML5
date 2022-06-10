@@ -1,0 +1,449 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.w {
+	width: 1200px;
+	margin: auto;
+}
+body {
+	background-color: #f3f5f7;
+	height: 3000px;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+/* 清除clearfix的浮动 */
+.clearfix::before,.clearfix::after {
+	content: "";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+	}
+.clearfix {
+	*zoom: 1;
+}
+/* 第一个盒子 */
+.header {
+	height: 42px;
+	margin: 30px auto;
+}
+/* logo部分 */
+.logo {
+	float: left;
+	width: 198px;
+	height: 42px;
+}
+/* 导航栏部分 */
+.naw {
+	float: left;
+	margin-left: 60px;
+}
+.naw ul li {
+	float: left;
+	margin: 0 15px;
+}
+.naw ul li a {
+	display: block;
+	height: 42px;
+	padding: 0 10px;
+	line-height: 42px;
+	font-size: 18px;
+	color: #050505;
+}
+.naw ul li a:hover{
+	border-bottom: 2px solid #00a4ff;
+	color: #00a4ff;
+}
+/* 搜索模块 */
+.search {
+	float: left;
+	width: 412px;
+	height: 42px;
+	margin-left: 30px;
+}
+.search input {
+	float: left;
+	width: 345px;
+	height: 40px;
+	border: 1px solid #00a4ff;
+	border-right: 0;
+	color: #bfbfbf;
+	font-size: 14px;
+	padding-left: 15px;
+}
+.search button{
+	float: left;
+	width: 50px;
+	height: 42px;
+	background: url(../img/a.png);
+	/* 按钮button默认有个边框需要我们手动去掉 */
+	border: 0;
+}
+/* 用户 */
+.user img{
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.user {
+	float: right;
+	line-height: 42px;
+	margin-right: 30px;
+	font-size: 14px;
+	color: #666;
+}
+/* 第二个盒子 */
+.banner {
+	height: 421px;
+	background-color: #1c036c;
+}
+/* 版心 */
+.banner .w {
+	height: 421px;
+	background: url(../img/banner.jpg) no-repeat top center;
+}
+/* 导航 */
+.subnav {
+	float: left;
+	width: 190px;
+	height: 421px;
+	background: rgba(0,0,0,.3);
+}
+.subnav ul li {
+	height: 45px;
+	line-height: 45px;
+	margin: 0 20px;
+}
+.subnav ul li a {
+	font-size: 14px;
+	color: #fff;
+}
+.subnav ul li a span {
+	float: right;
+}
+.subnav ul li a:hover{
+	color: #00a4ff;
+}
+/* 课程表 */
+.course {
+	float: right;
+	margin-top: 50px;
+	width: 230px;
+	height: 300px;
+	background-color: #fff;
+}
+.course h2 {
+	height: 48px;
+	background-color: #9bceea;
+	text-align: center;
+	line-height: 48px;
+	font-size: 18px;
+	color: #fff;
+}
+.bd {
+	margin: 0 20px;
+}
+.bd ul li {
+	padding: 13px 0;
+	border-bottom: 1px solid #ccc;
+}
+.bd ul li h4 {
+	font-size: 16px;
+	color: #4e4e4e;
+}
+.bd ul li p {
+	font-size: 14px;
+	color: #a5a5a5;
+}
+.bd .more {
+	display: block;
+	height: 35px;
+	border: 1px solid #00a4ff;
+	margin-top: 5px;
+	text-align: center;
+	line-height: 35px;
+	color: #00a4ff;
+	font-size: 16px;
+	font-weight: 700;
+}
+/* 第三个盒子 */
+/* 精品推荐模块 */
+.goods {
+	height: 60px;
+	background-color: #fff;
+	margin-top: 10px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.1);
+	line-height: 60px;
+}
+.goods h3 {
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+	color: #00a4ff;
+}
+.goods ul {
+	float: left;
+	margin-left: 30px;
+}
+.goods ul li {
+	float: left;
+}
+.goods ul li a {
+	padding: 0 30px;
+	font-size: 16px;
+	color: #050505;
+	border-left: 1px solid #ccc;
+}
+.mod {
+	float: right;
+	margin-right: 30px;
+	font-size: 14px;
+	color: #00a4ff;
+}
+/* 第四个盒子 */
+.box {
+	margin-top: 30px;
+}
+.box-hd {
+	height: 45px;
+}
+.box-hd h3 {
+	float: left;
+	font-size: 20px;
+	color: #494949;
+}
+.box-hd a {
+	float: right;
+	font-size: 12px;
+	color: #a5a5a5;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+.box-bd ul {
+	width: 1225px;
+}
+.box-bd ul li {
+	position: relative;
+	float: left;
+	width: 228px;
+	height: 270px;
+	background-color: #fff;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.box-bd ul li em {
+	position: absolute;
+	top: 4px;
+	right: -4px;
+}
+.box-bd ul li > img {
+	width: 100%;
+}
+.box-bd ul li h4 {
+	margin: 20px 20px 20px 25px;
+	font-size: 14px;
+	color: #050505;
+	font-weight: 400;
+}
+.box-bd .info {
+	margin: 0 20px 0 25px;
+	font-size: 12px;
+	color: #999;
+}
+.box-bd .info span {
+	color: #ff7c2d;
+}
+/* 底部模块 */
+.footer {
+	height: 415px;
+	background-color: #fff;
+}
+.footer .w {
+	padding-top: 35px;	
+}
+.copyight {
+	float: left;
+}
+.copyight p {
+	margin: 20px 0 15px 0;
+	font-size: 12px;
+	color: #666;
+}
+.copyight .app {
+	display: block;
+	width: 118px;
+	height: 33px;
+	border: 1px solid #00a4ff;
+	text-align: center;
+	line-height: 33px;
+	color: #00a4ff;
+	font-size: 16px;
+}
+.links {
+	float: right;
+}
+.links dl {
+	float: right;
+	margin-left: 100px;
+}
+.links dl dt {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 15px;
+}
+.links dl dd a {
+	color: #333;
+	font-size: 12px;
+}
+/* 第五个盒子 */
+.jingbian .a1{
+	margin-top: 20px;
+	height: 70px;
+	line-height: 60px;
+}
+.jingbian .a1 h2 {
+	float: left;
+	color: #555;
+	margin-right: 350px;
+}
+.jingbian .a1 ul li {
+	float: left;
+	margin-right: 70px;
+}
+.a1 ul li a {
+	font-size: 14px;
+	color: #666;
+}
+.a1 ul li a:hover{
+	color: #00a4ff;
+}
+.jingbian .a1 .text {
+	float: right;
+	margin-right: 50px;
+	color: #666;
+	font-size: 14px;
+}
+.jingbian .b1 .b2 {
+	float: left;
+	width: 228px;
+	height: 392px;
+}
+.jingbian .b1 .b3 {
+	float: left;
+	margin-left: 15px;
+}
+.b1 .b3 ul li {
+	float: left;
+	margin-top: 20px;
+	width: 228px;
+	height: 270px;
+	background-color: #fff;
+	margin-right: 15px;
+}
+.b1 .b3 ul li img {
+	width: 100%;
+}
+.b1 .b3 ul li h3 {
+	margin: 20px 25px 20px 20px;
+	font-size: 14px;
+	color: #555;
+}
+.b1 .b3 ul li .b4 {
+	font-size: 10px;
+	color: #999;
+	}
+.b1 .b3 ul li span {
+	margin-left: 20px;
+	color: #ff2c2d;
+	font-size: 14px;
+}
+.b1 .b3 ul .b5 {
+	margin-right: 0px;
+}
+/* 第六个盒子 */
+.c {
+	margin-top: 20px;
+}
+.c .c1 {
+	height: 70px;
+	line-height: 70px;
+}
+.c .c1 h3 {
+	float: left;
+	margin-right: 200px;
+	font-size: 25px;
+	color: #495057;
+}
+.c .c1 ul li {
+	float: left;
+	margin-right: 70px;
+}
+.c .c1 ul li a{
+	font-size: 14px;
+	color: #a5a5a5;
+}
+.c .c1 ul li a:hover{
+	color: #84abfd;
+}
+.c .c1 .c2 {
+	margin-right: 30px;
+}
+.c .c1 .c2 a {
+	float: right;
+	color: #c1adb7;
+}
+.c .d1 ul {
+	float: left;
+}
+.c .d1 ul li {
+	float:left;
+	margin-right: 12px;
+	width: 228px;
+	height: 270px;
+	background-color: #fff;
+}
+.c .d1 ul li img {
+	width: 100%;
+}
+.c .d1 ul li h3 {
+	margin: 25px 20px 25px 20px;
+	font-size: 14px;
+	color: #656565;
+}
+.d1 ul li p {
+	margin-left: 20px;
+}
+.d1 ul li span {
+	color: #ff4e4f;
+}
+ul li p {
+	font-size: 15px;
+	color: #c3c9d0;
+}
+/* 第七个盒子 */
+.m .m1 h2 {
+	margin-top: 25px;
+	height: 60px;
+	line-height: 60px;
+	color: #494949;
+}
+.m .n1 ul li {
+	height: 320px;
+	float: left;
+	margin-right: 27px;
+}
+.m .n1 ul .n2 {
+	margin-right: 0px;
+}
+.m .n1 ul li img {
+	height: 100%;
+}
+.m .n1 ul .n3 {
+	margin-right: 40px;
+	height: 310px;
+}
+/* 固定模块 */

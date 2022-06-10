@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 400px;
+            height: 300px;
+            border: 50px solid pink;
+            border-image-source: url(border.png);
+            border-image-slice: 166;
+            /* 这个属性默认的是 border的宽度 但是  有区别， 这个是 边框图片的宽度 不会挤压文字 */
+            border-image-width: 30px; 
+            border-image-repeat: round;
+        }
+    </style>
+</head>
+<body>
+    <div>1234</div>
+</body>
+</html>

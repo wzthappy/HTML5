@@ -1,0 +1,57 @@
+body {
+	background-image: url(../img/OIP-C.png);
+	background-attachment: fixed;
+}
+h2::after {
+	content: url(../img/tubiao.png);
+}
+.l::before {
+	color: #FF3F3B;
+}
+.a::before {
+	content: "[网络营销]";
+}
+.c::before {
+	content: "[上海传智播客]";
+}
+.d::before {
+	content: "[Java培训]";
+}
+.z::before {
+	content: "[iOS培训]";
+}
+.x::before {
+	content: "[Java培训]";
+}
+.b {
+	color: #ff3f3b;
+}
+p {
+	color: #102128;
+}
+.j {
+	height: 72px;
+	width: 533px;
+	background-image: url(../img/renwu.png);
+}
+h2 {
+	font-weight: 400;
+	color: #333435;
+	text-indent: 2em;
+}
+.f {
+	width: 1000px;
+	height: 360px;
+	/* background-color: transparent; */
+	background-color: rgba(0,0,0,0.3);
+	padding-top: 1px;
+	padding-left: 20px;
+	border: 5px solid black;
+	border-width:0px 5px;
+	margin:100px auto;
+}
+.a {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

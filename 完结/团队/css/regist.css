@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	overflow: hidden;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+button,
+input {
+	border: 0;
+	outline: none;
+}
+.clearfix::before,
+.clearfix::after {
+	content: '';
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+.w {
+	width: 1400px;
+	height: 800px;
+	margin: 0 auto;
+}
+img {
+    width: 204px;
+    height: 80px;
+}
+header {
+	height: 84px;
+	border-bottom: 2px solid #0073B2;
+}
+.registerarea {
+	height: 640px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.registerarea h3 {
+	height: 42px;
+	border-bottom: 1px solid #ccc;
+	background-color: #ececec;
+	line-height: 42px;
+	padding: 0 10px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.login {
+	float: right;
+	font-size: 14px;
+}
+.login a {
+	color: #C81623;
+}
+.reg_form {
+	width: 700px;
+	color: rgba(0,0,0,.8);
+	margin: 50px auto 0;
+}
+.reg_form ul li {
+	margin-bottom: 20px;
+}
+.reg_form ul li label {
+	display: inline-block;
+	width: 250px;
+	text-align: right;
+}
+.reg_form ul li input {
+	width: 300px;
+	height: 37px;
+	border: 1px solid #ccc;
+}
+.box ul li .a1 {
+	width: 130px;
+	margin-left: 424px;
+}
+.box ul li #sub {
+	background-color: #c81623;
+	color: #ffffdc;
+	height: 60px;
+	width: 300px;
+	font-size: 20px;
+}
+.safe {
+	padding-left: 357px;
+	margin-top: -20px;
+}
+.safe em {
+	font-style: normal;
+	padding: 0 12px;
+	color: #fff;
+}
+.ruo {
+	background-color: #de1111;
+}
+.zhong {
+	background-color: #40b83f;
+}
+.qiang {
+	background-color: #f79100;
+}
+.box ul .agree .ag {
+	width: 20px;
+	height: 20px;
+}
+.agree {
+	padding-left: 207px;
+}
+.agree .ag {
+	vertical-align: middle;
+}
+.agree a {
+	color: #1ba1e6;
+	-webkit-tap-highlight-color: transparent;
+}
+#sub {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.box ul li input[type="tel"]:focus,
+.box ul li input[type="text"]:focus,
+.box ul li input[type="email"]:focus,
+.box ul li input[type="password"]:focus {
+	width: 300px;
+	border-color: green;
+}
+.imsg {
+	font-size: 10px;
+}
+video {
+	z-index: -2;
+	position: absolute;
+	top: 0;
+	left: 0;
+    /* width: 800px; */
+    height: 900px;
+}

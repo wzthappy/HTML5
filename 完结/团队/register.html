@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>个人注册</title>
+		  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" href=" favicon.ico" />
+		<link rel="stylesheet" href="css/regist.css">
+	</head>
+	<body>
+		<div class="w">
+			<header>
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div>
+			</header>
+			<div class="registerarea">
+				<h3>注册新用户
+					<div class="login">我有账号,去<a href="Login.html">登录</a></div>
+				</h3>
+				<form class="reg_form box">
+					<ul>
+						<li>
+							<label for="">手机号:</label>
+							<input type="text" placeholder="请输入11位手机号码" autofocus="off" id="tel" onblur="formValiad.checkTelPhone()"/>
+							<span class="imsg" id="telInfo"></span><br/>
+							<input type="submit" value="获取验证码" class="a1">
+						</li>
+						<li>
+							<label for="">短信验证码:</label>
+							<input type="text" placeholder="请输入6位验证码" />
+						</li>
+						<li>
+							<label for="">邮箱:</label>
+							<input type="email" placeholder="example@example.com" />
+						</li>
+						<li>
+							<label for="">登录密码:</label>
+							<input type="password" placeholder="6-16位，包含大小写数字下划线等" />
+						</li>
+						<li class="safe">
+							安全程度 <em class="ruo">弱</em> <em class="zhong">中</em> <em class="qiang">强</em>
+						</li>
+						<li>
+							<label for="">再次输入登录密码:</label>
+							<input type="password" />
+						</li>
+						<li class="agree">
+							<input type="checkbox" class="ag">
+							同意协议并注册<a href="#">《知晓用户协议》</a>
+						</li>
+						<li>
+							<input type="submit" value="完成注册" id="sub">
+						</li>
+					</ul>
+				</form>
+				<!-- js -->
+				<script>
+				var tel = document.getElementById('tel');
+				var telInfo = document.getElementById('telInfo');
+				var formValiad = {
+					checkTelPhone:function(){
+						var pattern = /^(0|86|17951)?(13[0-9]|15[012356789]|18[0-9]|14[57]|17[678])[0-9]{8}$/;
+						if(tel.value.length == 0){
+							telInfo.innerHTML = "电话号码不能为空";
+							telInfo.style.color = "red";
+							return false;
+						}
+						if(!pattern.test(tel.value)){
+							telInfo.innerHTML = "电话号码不合法";
+							telInfo.style.color = "red";
+							return false;
+						}else {
+							telInfo.innerHTML = "输入正确";
+							telInfo.style.color = "green";
+							return true;
+						}
+					},
+					checkForm:function(){
+						var telRes = this.checkTelPhone();
+						return telRes;
+					}
+				}
+				</script>
+			</div>
+			<video src="img/a3.mp4" autoplay muted loop></video>
+		</div>
+		
+	</body>
+</html>

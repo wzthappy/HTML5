@@ -1,0 +1,44 @@
+div {
+	position: absolute;
+	z-index: 1;
+	width: 0;
+	height: 0;
+	border-color: transparent #a4985f transparent transparent;
+	border-style: solid;
+	border-width: 25px 25px 0 0;
+}
+.a1 {
+	right: 0;
+}
+.a2 {
+	bottom: 0;
+}
+.a3,
+.a4 {
+	border-color: transparent #6a5c1b  transparent transparent;
+}
+.a3 {
+	left: 25px;
+	bottom: 25px;
+}
+.a4 {
+	right: 25px;
+	top: 25px;
+}
+article {
+	position: relative;
+	margin: 100px auto;
+	width: 700px;
+	height: 450px;
+	background-color: pink;
+	box-shadow: 20px 20px 0px 5px #6a5c1b inset,-20px -20px 0px 5px #a4985f inset;
+}
+img {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	width: 600px;
+	height: 350px;
+	padding: 25px;
+	box-shadow: 20px 20px 0px 5px #a4985f inset,-20px -20px 0px 5px #6a5c1b inset;
+}
